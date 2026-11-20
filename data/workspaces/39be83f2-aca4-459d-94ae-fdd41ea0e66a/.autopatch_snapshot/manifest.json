@@ -1,0 +1,7 @@
+{
+  "requirements.txt": "121ae8609acc1a3235b1056574b175193705693fd0530c4e7393450d07f6dcaf",
+  "marks/calculator.py": "d0dabde24f123b6fda67e901aa59486608bb0d6314d08302afdd48241b76242e",
+  "marks/__init__.py": "4a372ede456dbb13116c757cea288cd8e9d27a74939ae718c00cae8d93530ef4",
+  "tests/test_calculator.py": "51b9aab4502f312c7a6fe59889979f43fdbb9506605c67d10fcee08b29d7afde",
+  "tests/__init__.py": "89588b0c2be9d872060e78aa68ccf95f94ca27ea6bcb79a43509d66c296c73ce"
+}

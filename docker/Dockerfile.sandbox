@@ -1,0 +1,15 @@
+FROM python:3.11-slim
+
+# Install OpenJDK for Java projects and clean caches
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    default-jdk-headless \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install testing utilities
+RUN pip install --no-cache-dir pytest>=8.0.0
+
+# Set non-root execution user
+USER nobody
+WORKDIR /workspace
+
+CMD ["pytest", "--tb=short", "-v"]

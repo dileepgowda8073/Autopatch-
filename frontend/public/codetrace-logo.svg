@@ -1,0 +1,66 @@
+<svg viewBox="0 0 420 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main Watercolor Gradient for C -->
+    <linearGradient id="ctGradientC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#A78BFA" />
+      <stop offset="50%" stopColor="#818CF8" />
+      <stop offset="100%" stopColor="#00F5FF" />
+    </linearGradient>
+
+    <!-- Vibrant Gradient for T -->
+    <linearGradient id="ctGradientT" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#C084FC" />
+      <stop offset="60%" stopColor="#A855F7" />
+      <stop offset="100%" stopColor="#818CF8" />
+    </linearGradient>
+
+    <!-- Inner code tag </> gradient -->
+    <linearGradient id="ctInnerTag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#00F5FF" />
+      <stop offset="100%" stopColor="#A78BFA" />
+    </linearGradient>
+  </defs>
+
+  <!-- ── Left Bracket "C" ────────────────────────────────────── -->
+  <path
+    d="M 195 24 L 95 98 L 195 172 L 165 172 L 68 98 L 165 24 Z"
+    fill="url(#ctGradientC)"
+    stroke="rgba(255,255,255,0.15)"
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+
+  <!-- ── Inner Code Symbol "</>" ─────────────────────────────── -->
+  <!-- Left angle bracket < -->
+  <path
+    d="M 120 85 L 105 98 L 120 111"
+    stroke="url(#ctInnerTag)"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Center Slash / -->
+  <path
+    d="M 142 77 L 130 120"
+    stroke="url(#ctInnerTag)"
+    stroke-width="7"
+    stroke-linecap="round"
+  />
+  <!-- Right angle bracket > -->
+  <path
+    d="M 152 85 L 167 98 L 152 111"
+    stroke="url(#ctInnerTag)"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- ── Right Letter "T" ────────────────────────────────────── -->
+  <path
+    d="M 188 24 L 320 24 L 288 60 L 250 60 L 250 172 L 216 172 L 216 60 L 188 60 Z"
+    fill="url(#ctGradientT)"
+    stroke="rgba(255,255,255,0.15)"
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+</svg>
